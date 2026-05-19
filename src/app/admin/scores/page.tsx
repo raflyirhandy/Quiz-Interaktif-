@@ -51,7 +51,7 @@ export default async function AdminScoresPage() {
                     <td className="py-4 px-4">
                       <div className="space-y-1">
                         <span className="block">{score.materi?.judul}</span>
-                        <Badge variant="primary" className="text-[9px] uppercase px-2 py-0.5 rounded-md">
+                        <Badge variant="default" className="text-[9px] uppercase px-2 py-0.5 rounded-md">
                           {score.materi?.kategori}
                         </Badge>
                       </div>
