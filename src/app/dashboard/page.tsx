@@ -114,13 +114,13 @@ export default async function StudentDashboard({ searchParams }: DashboardPagePr
             {/* Category Filters */}
             <div className="flex flex-wrap gap-2 justify-center">
               <Link href="/dashboard">
-                <Badge variant={!kategori ? "primary" : "default"} className="px-4 py-2 cursor-pointer font-bold text-xs">
+                <Badge variant={!kategori ? "info" : "default"} className="px-4 py-2 cursor-pointer font-bold text-xs">
                   🌟 Semua Kategori
                 </Badge>
               </Link>
               {["Matematika", "Bahasa Indonesia", "IPA", "IPS", "Bahasa Inggris"].map((kat) => (
                 <Link key={kat} href={`/dashboard?kategori=${kat}${search ? `&search=${search}` : ""}`}>
-                  <Badge variant={kategori === kat ? "primary" : "default"} className="px-4 py-2 cursor-pointer font-bold text-xs">
+                  <Badge variant={kategori === kat ? "info" : "default"} className="px-4 py-2 cursor-pointer font-bold text-xs">
                     {kat}
                   </Badge>
                 </Link>
