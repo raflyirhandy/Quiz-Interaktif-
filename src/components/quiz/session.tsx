@@ -236,7 +236,7 @@ export function QuizSessionClient({
       {/* Top Session metadata info bar */}
       <div className="flex justify-between items-center bg-white dark:bg-slate-900 border-2 border-indigo-50/50 dark:border-slate-950 rounded-2xl p-4 shadow-sm">
         <div className="flex items-center gap-2">
-          <Badge variant="primary" className="rounded-lg text-xs font-bold font-fredoka px-3 py-1">
+          <Badge variant="default" className="rounded-lg text-xs font-bold font-fredoka px-3 py-1">
             Soal {currentIdx + 1} / {quizzes.length}
           </Badge>
           <span className="text-xs font-semibold text-gray-400 max-w-[120px] sm:max-w-none truncate">

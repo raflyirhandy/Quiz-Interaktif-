@@ -55,7 +55,7 @@ export default async function ProfilePage() {
                 <h1 className="font-fredoka text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white">
                   {profile?.nama || "Siswa Pintar"}
                 </h1>
-                <Badge variant="primary" className="capitalize text-xs font-bold px-3 py-1 rounded-full">
+                <Badge variant="default" className="capitalize text-xs font-bold px-3 py-1 rounded-full">
                   🧑‍🎓 {profile?.role || "Siswa"}
                 </Badge>
               </div>
@@ -162,7 +162,7 @@ export default async function ProfilePage() {
                     <tr key={history.id} className="text-sm font-semibold text-gray-700 dark:text-gray-300">
                       <td className="py-4 px-4">{history.materi?.judul || "Materi Pelajaran"}</td>
                       <td className="py-4 px-4">
-                        <Badge variant="primary" className="capitalize text-[10px]">
+                        <Badge variant="default" className="capitalize text-[10px]">
                           {history.materi?.kategori || "Umum"}
                         </Badge>
                       </td>

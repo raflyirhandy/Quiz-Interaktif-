@@ -160,7 +160,7 @@ export default async function LeaderboardPage() {
                           <h4 className="font-bold text-sm sm:text-base text-gray-800 dark:text-white flex items-center gap-1.5">
                             {entry.nama}
                             {isUserSelf && (
-                              <Badge variant="primary" className="text-[9px] px-2 py-0.5 rounded-full font-bold">
+                              <Badge variant="default" className="text-[9px] px-2 py-0.5 rounded-full font-bold">
                                 Kamu
                               </Badge>
                             )}
